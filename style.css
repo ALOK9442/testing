@@ -417,7 +417,9 @@ h3{
     html{
         font-size: 60%;
     }
-
+    body{
+        overflow-x: hidden;
+    }
     .sad{
         margin-left:25%;
         margin-top:5%;
@@ -437,6 +439,7 @@ h3{
         width: 6rem;
     }
     .lag{
+        display: none;
         width: 6rem;
         margin-top: 145%;
         margin-left:15%;
@@ -546,7 +549,7 @@ h3{
         text-align:center;
     }
     .container{
-        margin-top:15rem;
+        margin-top:25rem;
         padding-bottom: 10rem;
     }
     .ser{
@@ -588,4 +591,40 @@ h3{
     .copy{
         font-size: 1rem;
     }
+    .xyy{
+        width: 15rem;
+        height: auto;
+    }
 } 
+@media screen and (max-width:300px){
+    
+
+    .container{margin-top: 30rem;
+    }
+    .algo{
+        margin-left: 75%;
+    }
+    .galo{
+        margin-left: 0rem;
+        width: 5rem;
+    }
+    .koa{
+        margin-top: 200%;
+        margin-left: 0.1rem;
+    }
+    .hak{
+        width: 5rem;
+        margin-left: 22rem;
+    }
+    .plz{
+        margin-left: 23rem;
+    }
+    .lag{
+        display: block;
+        margin-top: 220%;
+        margin-left: 40%;
+    }
+    .logo{
+        margin-right: 14rem;
+    }
+}
