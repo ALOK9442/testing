@@ -417,6 +417,9 @@ h3{
     html{
         font-size: 60%;
     }
+    .subtitle{
+        margin-top:80%;
+    }
     body{
         overflow-x: hidden;
     }
@@ -492,7 +495,7 @@ h3{
 }
 
     #particles-js{
-        margin-top:1rem;
+        margin-top:-3rem;
         height: 80rem;
     }
     .abra{
@@ -598,7 +601,7 @@ h3{
 } 
 @media screen and (max-width:300px){
     
-
+  
     .container{margin-top: 30rem;
     }
     .algo{
@@ -609,7 +612,8 @@ h3{
         width: 5rem;
     }
     .koa{
-        margin-top: 200%;
+        width: 5rem;
+        margin-top: 50rem;
         margin-left: 0.1rem;
     }
     .hak{
@@ -620,6 +624,7 @@ h3{
         margin-left: 23rem;
     }
     .lag{
+        width: 5rem;
         display: block;
         margin-top: 220%;
         margin-left: 40%;
@@ -627,4 +632,5 @@ h3{
     .logo{
         margin-right: 14rem;
     }
+    
 }
