@@ -18,8 +18,8 @@ html{
 }
 .important{
     margin-top:2rem;
-    line-height: 2rem;
-    font-size:1.5rem;
+    line-height: 3rem;
+    font-size:2rem;
 }
 .heading{
     text-align:left;
@@ -28,6 +28,9 @@ html{
 }
 h1{
     text-align:center;
+}
+#questions{
+    font-size: 2rem;
 }
 
 
@@ -46,6 +49,11 @@ h3{
     text-align: center;
 font-family:'Montserrat';
 font-size: large;
+margin: 0%;
+}
+h6{
+    margin: 0%;
+    /* text-align: center; */
 }
 .copy{
 padding: 2rem ;
@@ -87,12 +95,14 @@ text-align: center;
 
 .okay{
 font-size: 2rem;
+text-align: center;
 }
 .us{
 font-family:'Montserrat';
 font-size: 1.5rem;
 }
 .sus{
+    font-size: 1.5rem;
 font-family:'Montserrat';
 }
 
@@ -118,4 +128,10 @@ transition:transform 0.5s;
 color:#ffab03;
 transform:translateY(-.5rem);
 
+}
+
+
+@media only screen and (max-width:720px){
+    html{font-size:62.5%;
+    }
 }
