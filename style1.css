@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family:'Montserrat';
+}
+html{
+    overflow: scroll;
+    scroll-behavior: smooth;
+    font-size: 62.5%;
+}
+.acadhub{
+    text-decoration-line: underline;
+    text-decoration-color:rgb(233, 154, 98) ;
+    font-size: 5rem;
+  background: -webkit-linear-gradient(#f04623, #f8a72a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent ;
+}
+.important{
+    margin-top:2rem;
+    line-height: 2rem;
+    font-size:1.5rem;
+}
+.heading{
+    text-align:left;
+  font-size:2rem;
+  margin:2rem;
+}
+h1{
+    text-align:center;
+}
+
+
+
+footer{
+        color:white;
+    margin-top:15rem ;
+    padding: 4rem;
+    text-align: center;
+     background-color: rgb(24, 24, 32);
+   }
+   footer a:link{
+text-decoration: none;
+   }
+h3{
+    text-align: center;
+font-family:'Montserrat';
+font-size: large;
+}
+.copy{
+padding: 2rem ;
+background-color: rgb(16, 16, 34);
+}
+.copy span{
+font-family:'Montserrat';
+font-size: 2rem;
+background: -webkit-linear-gradient(#f04623, #f8a72a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent ;
+
+}
+.yo span{
+font-family:'Montserrat';
+position: absolute;
+margin-top: 1rem;
+font-size:2rem;
+background: -webkit-linear-gradient(#f04623, #f8a72a);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.copy a{
+color: #f04623;
+font-size: 1.5rem;
+}
+.imagess{
+width: 4rem;
+margin-left: -10rem;
+}
+.contac{
+    margin-top:2rem;
+font-family:'Montserrat';
+flex-basis:60%;
+text-align: center;
+/* padding:4rem; */
+
+}
+
+.okay{
+font-size: 2rem;
+}
+.us{
+font-family:'Montserrat';
+font-size: 1.5rem;
+}
+.sus{
+font-family:'Montserrat';
+}
+
+.sub{
+font-family:'Montserrat';
+font-style:normal;
+font-size: medium;
+
+}
+
+.icons{
+margin-top:-1rem;
+}
+.icons a{
+text-decoration:none;
+font-size:2rem;
+margin-right:1rem;
+color:#ababab;
+display:inline-block;
+transition:transform 0.5s;
+}
+.icons a:hover{
+color:#ffab03;
+transform:translateY(-.5rem);
+
+}
