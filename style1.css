@@ -9,6 +9,7 @@ html{
     font-size: 62.5%;
 }
 .acadhub{
+    font-weight: 900;
     text-decoration-line: underline;
     text-decoration-color:rgb(233, 154, 98) ;
     font-size: 5rem;
@@ -31,6 +32,28 @@ h1{
 }
 #questions{
     font-size: 2rem;
+}
+.question{
+    font-weight: 700;
+}
+.question_number{
+    font-weight: 1000;
+}
+.download-pdf{
+    margin-top: 5rem;
+    font-size: 1.5rem;
+}
+.download-pdf a{
+    display: block;
+    background:-webkit-linear-gradient(#f04623, #f8a72a);
+    color: black;
+    text-align: center;
+     text-decoration: none;
+     padding: 1.5rem;
+     width: 30rem;
+     border-radius: 1rem;
+     cursor: pointer;
+     font-size: large;
 }
 
 
